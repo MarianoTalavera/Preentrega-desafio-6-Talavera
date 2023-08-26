@@ -1,0 +1,13 @@
+<h1>Tés del Sur</h1>
+<h2>Listado de productos</h2>
+<div id="listProd"></div>
+{{#each products}}
+    <h3>{{this.title}}</h3>
+    <p>{{this.description}}</p>
+    <p>Precio: $ {{this.price}}</p>
+    <p>{{this.code}}</p>
+    <p>Stock: {{this.stock}} uds</p>
+    <p>Categoría: {{this.category}}</p>
+{{/each}}
+</div>
+<h6>Designed by Mariano Talavera</h6>
